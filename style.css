@@ -1,0 +1,58 @@
+*{
+font-family: fantasy;
+
+
+}
+
+p{
+background-color: aquamarine;
+text-align: center;
+padding: 5%;
+margin-left: 20%;
+margin-right: 40%;
+}
+
+nav{
+background-color: aquamarine;
+text-align: center;
+padding: 1%;
+margin-left: 45%;
+margin-right: 45%;
+}
+h1{
+background-color: aqua;
+text-align: center;
+}
+body{
+background-color: black;
+
+}
+
+
+.green-magic{
+background-color: rgb(26, 129, 3);
+
+
+}
+.red-magic{
+
+    background-color: rgb(255, 14, 14);
+}
+.yellow-magic{
+
+    background-color: rgb(191, 255, 0);
+}
+.brown-magic{
+
+    background-color: rgb(204, 109, 0);
+}
+.violet-magic{
+
+    background-color: rgb(136, 0, 255);
+}
+iframe{
+    background-color: blue;
+    padding: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
