@@ -1,6 +1,16 @@
 body{
-    background-color: black;
+background-image: url("immagine per background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 h1{
     background-color: bisque;
+}
+img{
+  background-color: aquamarine;  
+  padding: 1%;
+}
+p{
+background-color: rgba(140, 2, 2, 0.359);
+color: rgb(253, 253, 253);
 }
