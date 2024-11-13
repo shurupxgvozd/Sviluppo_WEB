@@ -1,16 +1,26 @@
 body{
 background-image: url("immagine per background.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+background-size: 1600px 1000px;
 }
 h1{
-    background-color: bisque;
+    background-color: rgba(255, 35, 251, 0.47);
+    padding-inline: 47%;
+
 }
 img{
   background-color: aquamarine;  
   padding: 1%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 p{
 background-color: rgba(140, 2, 2, 0.359);
 color: rgb(253, 253, 253);
+}
+.magia-nera{
+  background-color: rgba(255, 170, 0, 0.486);
+  color: rgb(69, 4, 130);
+  margin-right: 30%;
+  margin-left: 30%;
+  padding-inline: 15%;
 }
