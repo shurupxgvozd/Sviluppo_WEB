@@ -25,6 +25,3 @@ console.log("esempio1= " + esempio1);
 // con const non può essere riassegnata (tranne per alcuni casi specifici)
 const esempio2 = 7;
 console.log("esempio2= " + esempio2) //ok
-
-esempio2 = "ananas";
-console.log("esempio2= " + esempio2) // errore
