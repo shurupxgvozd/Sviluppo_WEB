@@ -1,28 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Lista con Tailwind CSS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
-<body class="bg-neutral-800 min-h-screen flex flex-col items-center justify-center">
+<body>
+  <script>
+function update(){
+   const now = new Date()
+console.log(now);
+}
 
-  <div class="bg-white p-8 rounded-lg shadow-lg w-96">
-    <h1 class="text-3xl font-bold underline text-center text-blue-600 mb-6">Lista</h1>
-    <ul id="lista" class="space-y-2 text-gray-700 text-lg">
-        <li class="bg-blue-100 p-2 rounded">Elemento 1</li>
-        <li class="bg-blue-100 p-2 rounded">Elemento 2</li>
-        <li class="bg-blue-100 p-2 rounded">Elemento 3</li>
-    </ul>
+setInterval(update, 1000);
 
-    <div class="mt-6 flex justify-between space-x-4">
-        <button id="bottone-aggiungi" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded shadow">Aggiungi</button>
-        <button id="bottone-togli" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded shadow">Togli</button>
-    </div>
-  </div>
-
-  <script src="lista.js"></script>
+  </script>
+  
 </body>
 </html>
