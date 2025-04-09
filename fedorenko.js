@@ -5,7 +5,7 @@ function fedosaluta(){
 alert("Ciao da Fedorenko");
 }
 function fedomusica(){
-
+console.log("Ciao sono Nazar, non ho una musica pre")
 }
 
 function fedopugno(){
@@ -31,4 +31,9 @@ for(let index = 0; index < a; index++){
 cont.appendChild(fgt);
 }
 
+}
+
+function FedorenkoVerde(){
+    const contenitore = document.getElementById("contenitore");
+    contenitore.className = "verde-corsivo";
 }
