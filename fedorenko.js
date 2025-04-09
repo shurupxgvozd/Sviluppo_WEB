@@ -34,6 +34,9 @@ cont.appendChild(fgt);
 }
 
 function FedorenkoVerde(){
-    const contenitore = document.getElementById("contenitore");
-    contenitore.className = "verde-corsivo";
+ document.body.className = "verde-corsivo";
+}
+
+function FedorenkoGrigi(){
+    document.body.className = "grigio";
 }
